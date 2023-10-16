@@ -1,0 +1,31 @@
+.filters-container {
+  list-style: none;
+  padding: 0;
+}
+
+.filter-selector {
+  padding-bottom: 10px;
+}
+
+.filter-selector>h2 {
+  font-size: 0.8rem;
+}
+
+.filter-item {
+  background-color: var(--grey-light);
+  border-radius: 5px;
+  width: 100%;
+  padding: 4px;
+  margin: 8px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.filter-item:hover {
+  background-color: var(--grey-shade);
+}
+
+.selected {
+  background-color: var(--blue-selected);
+  color: var(--white);
+}

@@ -1,0 +1,41 @@
+.items-list {
+  height: 65vh;
+  width: 100%;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--grey-medium);
+  text-decoration: none;
+  color: black;
+  padding-left: 0;  
+  transition: padding-left 100ms;
+}
+
+.item-container:hover {
+  background-color: var(--grey-light);
+  padding-left: 5px;
+  border-left: 3px solid var(--blue-selected);
+}
+
+.item-container > p {
+  font-size: 0.8rem;
+}
+
+.loadMoreBtn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loadMoreBtn-container > button {
+  background-color: var(--blue-selected);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  padding: 6px 8px;
+  margin: 8px 50px;
+  text-align: center;
+  cursor: pointer;
+}
